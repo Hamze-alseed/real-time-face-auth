@@ -17,9 +17,6 @@ with face enrollment and verification.
 - ONNX Runtime
 - Scikit-learn
 
-## 📸 Demo
-(Add screenshots or a GIF here)
-
 ## ⚙️ How to Run
 1. Open the notebook in Google Colab
 2. Run the install cell

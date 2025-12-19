@@ -10,6 +10,11 @@ with face enrollment and verification.
 - Runs in real-time
 - Google Colab compatible
 
+## 🔐 Liveness Detection
+To prevent spoofing attacks (photos or videos), a blink-based liveness
+detection mechanism is implemented using MediaPipe Face Mesh.
+Authentication is only allowed after detecting a real eye blink.
+
 ## 🧠 Tech Stack
 - Python
 - OpenCV
@@ -24,6 +29,5 @@ with face enrollment and verification.
 4. Test verification
 
 ## 📈 Future Improvements
-- Liveness detection
 - Multi-user support
 - Web interface

@@ -54,5 +54,5 @@ and do not affect recognition or liveness detection accuracy.
 - Web interface
 
 ## 👤 Author
-Hamze 
-AI Engineer — Computer Vision & Deep Learning
+- Hamze Alsaeed 
+- AI Engineer — Computer Vision & Deep Learning

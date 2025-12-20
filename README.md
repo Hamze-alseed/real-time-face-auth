@@ -52,3 +52,7 @@ and do not affect recognition or liveness detection accuracy.
 ## 📈 Future Improvements
 - Multi-user support
 - Web interface
+
+## 👤 Author
+Hamze 
+AI Engineer — Computer Vision & Deep Learning

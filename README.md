@@ -1,19 +1,33 @@
-# Real-Time Face Recognition System
+# Face Recognition and Varification System
 
 ## 🔍 Overview
 A real-time face recognition system using InsightFace (ArcFace embeddings)
-with face enrollment and verification.
+with face enrollment and verification and liveness detection.
 
 ## 🚀 Features
 - Face enrollment
 - Face verification using cosine similarity
-- Runs in real-time
+- Uses blink detection for liveness varification
 - Google Colab compatible
 
 ## 🔐 Liveness Detection
 To prevent spoofing attacks (photos or videos), a blink-based liveness
 detection mechanism is implemented using MediaPipe Face Mesh.
 Authentication is only allowed after detecting a real eye blink.
+
+## System Pipeline
+
+1. Enrollment
+- Capture video of the user
+- Detect face
+- Extract embedding
+- Store embedding vector
+2. Verification
+- Process test video frame-by-frame
+- Detect eye blink (liveness)
+- Compare embeddings using cosine similarity
+- Grant or deny access
+
 
 ## 🧠 Tech Stack
 - Python
@@ -24,9 +38,16 @@ Authentication is only allowed after detecting a real eye blink.
 
 ## ⚙️ How to Run
 1. Open the notebook in Google Colab
-2. Run the install cell
-3. Enroll your face
-4. Test verification
+2. Upload FaceID_System.ipynb
+3. Run the install cell
+4. Enroll your face
+5. Test verification
+
+## ⚠️ Security Note
+
+Displayed frames are resized only for visualization
+and do not affect recognition or liveness detection accuracy.
+
 
 ## 📈 Future Improvements
 - Multi-user support
